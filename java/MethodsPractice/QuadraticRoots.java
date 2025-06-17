@@ -11,7 +11,7 @@ public class QuadraticRoots {
     }
     public static void findRoots(double a, double b, double c) {
         if (a == 0) {
-            System.out.println("Coefficient 'a' cannot be zero for a quadratic equation.");
+            System.out.println("Coefficient 'a' can not be zero for a quadratic equation.");
             return;
         }
         double discriminant = b * b - 4 * a * c;
