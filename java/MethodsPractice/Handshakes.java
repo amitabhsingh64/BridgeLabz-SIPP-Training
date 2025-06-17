@@ -10,7 +10,7 @@ public class Handshakes {
             System.out.println("Number of people cannot be negative.");
             return 0;
         }
-        // Using the formula n(n-1)/2 to calculate handshakes
+        // Using the formula n(n-1)/2 
         return (numberOfPeople * (numberOfPeople - 1)) / 2;
     }
 }
