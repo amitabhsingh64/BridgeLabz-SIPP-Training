@@ -1,4 +1,3 @@
-package level03;
 import java.util.*;
 public class ArmstrongNumberCheck {
 	public static void main(String[] args) {
